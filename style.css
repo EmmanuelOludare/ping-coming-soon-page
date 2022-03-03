@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
+*{
+	 font-family: 'Libre Franklin', sans-serif;	
+}
+body {
+				
+}
+content{
+    position: relative;
+    top: 70px;
+    
+}
+#logo{
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin: auto;
+				top: 40px;
+}
+#dashboard{
+				height: 230px;
+				width: 370px;
+			 position: relative;
+			 left: 10px;
+			 top: 35px;
+}
+.heading{
+				color: hsl(0, 0%, 59%);
+				font-size: 25px;
+					text-align: center;
+}
+.heading strong{
+				color: black;
+}
+.subheading{
+				font-size: 15px;
+				margin-top: -17px;
+					text-align: center;
+}
+.form{
+				display: flex;
+				justify-content: space-around;
+				align-items:center;
+				flex-direction: column;
+				margin-top: 20px;
+}
+.form input[type=email]{
+				border-radius: 25px;
+				width: 300px;
+				height: 45px;
+				border: 2px solid hsl(223, 100%, 88%);
+				outline: none;
+}
+.form input[type=button]{
+				border-radius: 25px;
+				background: hsl(223, 87%, 63%);
+				color: white;
+				font-weight: bolder;
+				width: 310px;
+				height: 45px;
+				border: none;
+				margin-top: 20px;
+}
+.form input[type=button]:hover{
+				opacity: .8;
+}
+.icons{
+				display: flex;
+				justify-content:center;
+				align-items: flex-end;
+				margin-top: 70px;
+				text-align: center;
+}
+.icons i{
+				color:hsl(223, 87%, 63%);
+				border: 1px solid hsl(223, 100%, 88%);
+				border-radius: 50%;
+				padding: 7px;
+				margin-right: 10px;
+					text-align: center;
+}
+.icons i:hover{
+					background:hsl(223, 87%, 63%);
+					color: white;
+}
+.copyright{
+				font-size: 10px;
+				color: hsl(0, 0%, 59%);
+				margin-top: 20px;
+					text-align: center;
+}
+.attribution { font-size: 15px; text-align: center;
+ margin-top: 120px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width:600px){
+				.form{
+				display: flex;
+				justify-content: center;
+				align-items: baseline;
+				flex-direction: row;
+				margin-top: 20px;
+}
+.form input[type=email]{
+				width: 250px;
+}
+.form input[type=button]{
+				width: 120px;
+				margin-left: 10px;
+}
+#dashboard{
+				height: 250px;
+				width: 390px;
+			 position: relative;
+			 left: 190px;
+}
+#error{
+			top: 210px;
+			left: 140px;
+				
+}
+#contain{
+				position: absolute;
+				z-index: 2;
+				top: 20px;	
+				left: 190px;
+				height: 270px;
+				width: 430px;
+} 
+}
+@media(min-width:1000px){
+				#dashboard{
+				height: 255px;
+				width: 405px;
+			 position: relative;
+			 left:290px;
+}
+#contain{
+				position: absolute;
+				z-index: 2;
+				top: 20px;	
+				left: 290px;
+				height: 270px;
+				width: 445px;
+} 
+#error{
+				left: 190px;
+				
+}
+}
+@media(min-width:1100px){
+				#dashboard{
+				height: 255px;
+				width: 405px;
+			 position: relative;
+			 left:355px;
+}
+#contain{
+				position: absolute;
+				z-index: 2;
+				top: 20px;	
+				left: 355px;
+				height: 270px;
+				width: 445px;
+} 
+#error{
+				left: 210px;
+				
+}
+}
+.hide{
+					display:none;
+}
+#contain{
+				position: absolute;
+				z-index: 2;
+				top: 25px;	
+} 
+#error{
+				color:hsl(354, 100%, 66%) ;
+				font-size: 10px;
+				font-style: italic;
+				position: absolute;
+				margin-top: -60px;
+		  	margin-left: 50px;
+}
+
+## Colors
+
+### Primary
+
+- Blue: hsl(223, 87%, 63%)
+
+### Secondary
+
+- Pale Blue: hsl(223, 100%, 88%)
+- Light Red: hsl(354, 100%, 66%)
+
+### Neutral
+
+- Gray: hsl(0, 0%, 59%)
+- Very Dark Blue: hsl(209, 33%, 12%)
